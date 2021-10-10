@@ -20,6 +20,7 @@
 target
 out
 .idea
+tmp
 
 ### NetBeans ###
 /nbproject/private/
