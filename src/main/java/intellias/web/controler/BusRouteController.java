@@ -28,8 +28,10 @@ public class BusRouteController {
   public ResponseEntity<RouteDto> getDirectRoute(
       @RequestParam Integer dep_sid, @RequestParam Integer arr_sid
   ) {
-    RouteDto responseRouteDto = routeDtoMapper.toRouteDto(routeService.getRoute(dep_sid,arr_sid));
+    RouteDto responseRouteDto = routeDtoMapper.toRouteDto(routeService.getRoute(dep_sid, arr_sid));
 
     return ResponseEntity.ok(responseRouteDto);
   }
+
+
 }

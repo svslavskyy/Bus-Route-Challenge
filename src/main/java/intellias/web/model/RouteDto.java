@@ -22,4 +22,6 @@ public class RouteDto {
 
   @JsonProperty
   private Boolean directBusRoute;
+
+
 }

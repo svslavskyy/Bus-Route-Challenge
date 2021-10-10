@@ -10,7 +10,7 @@ public class RouteDtoMapperDefault implements RouteDtoMapper {
 
   @Override
   public Route routeDtoToRoute(RouteDto routeDto) {
-    if(routeDto == null){
+    if (routeDto == null) {
       return null;
     }
 
@@ -19,7 +19,7 @@ public class RouteDtoMapperDefault implements RouteDtoMapper {
 
   @Override
   public RouteDto toRouteDto(Route route) {
-    if(route == null){
+    if (route == null) {
       return null;
     }
 
